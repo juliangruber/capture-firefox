@@ -8,8 +8,6 @@ require a graphical environment / X server to run!
 Also you don't even need to have Firefox installed, this will fetch an up
 to date binary for you.
 
-[![build status](https://secure.travis-ci.org/juliangruber/capture-firefox.png)](http://travis-ci.org/juliangruber/capture-firefox)
-
 ## Example
 
 Capture a `1024x768` screenshot of [github.com](http://github.com):
