@@ -1,0 +1,35 @@
+{
+  "name": "capture-firefox",
+  "description": "Capture screenshots using firefox",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/capture-firefox.git"
+  },
+  "scripts": {
+    "test": "prettier-standard '**/*.js' && standard"
+  },
+  "homepage": "https://github.com/juliangruber/capture-firefox",
+  "main": "index.js",
+  "dependencies": {
+    "firefox-nightly-prebuilt": "^1.0.1",
+    "shell-escape": "^0.2.0",
+    "temp-dir": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier-standard": "^6.0.0",
+    "standard": "^10.0.3"
+  },
+  "keywords": [
+    "firefox",
+    "nightly",
+    "screenshot",
+    "headless"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
